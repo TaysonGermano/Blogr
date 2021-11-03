@@ -1,0 +1,15 @@
+:root {
+  --cta-text-color: hsl(356, 100%, 66%);
+  --cta-bg-color: hsl(355, 100%, 74%);
+  --heading-color: hsl(208, 49%, 24%);
+  --text-main-color: hsl(207, 13%, 34%);
+  --text-secondary-coler: hsl(0, 0%, 100%);
+  --footer-text-color: hsl(240, 2%, 79%);
+  --footer-bg-color: hsl(240, 10%, 16%);
+  --gradient-color: linear-gradient(
+    190deg,
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  --space-main: 130px 0px;
+}

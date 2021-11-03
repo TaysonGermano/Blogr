@@ -1,0 +1,135 @@
+@import "variables.css";
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,300;1,600&family=Ubuntu:wght@300;400;700&display=swap");
+@import "general.css";
+@import "desktop.css";
+
+/* Mobile */
+
+@media screen and (max-width: 920px) {
+  .desktop-img,
+  .mobile-img,
+  .laptop-img,
+  .arrow-light {
+    display: none;
+  }
+
+  .row-flex,
+  .menu-open,
+  .nav-bar,
+  .hamburger,
+  .menu-links {
+    display: block;
+    position: relative;
+    margin: 0;
+  }
+
+  .nav-bar {
+    padding: 20px 3rem;
+  }
+
+  .img-on-mobile {
+    display: block;
+  }
+
+  .menu-open {
+    background-color: rgb(238, 237, 237);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .row-flex {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+  }
+
+  .row-flex .logo {
+    grid-column: 1/6;
+    margin-bottom: 20px;
+  }
+
+  .row-flex .hamburger {
+    grid-column: 7/13;
+  }
+
+  .row-flex .menu-links,
+  .menu-btn {
+    padding: 20px 0px;
+    grid-column: 1/13;
+    text-align: center;
+    background-color: #fff;
+    margin: 0 3rem;
+  }
+
+  .menu-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .login {
+    color: var(--text-main-color);
+  }
+  .sign-up {
+    color: #fff;
+    background: var(--gradient-color);
+  }
+
+  .hamburger {
+    text-align: right;
+    margin-top: -20px;
+    cursor: pointer;
+  }
+
+  .menu-links a {
+    color: var(--text-main-color);
+  }
+
+  .img-on-mobile img,
+  .colum {
+    width: 100%;
+    text-align: center;
+  }
+
+  section img,
+  footer img {
+    margin-bottom: 50px;
+  }
+
+  .section-2 img {
+    margin-top: -10em;
+  }
+
+  .row {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .section-1 .row {
+    flex-direction: column-reverse;
+  }
+
+  .container,
+  .section-1 .colum-1,
+  .section-3 .colum-2 {
+    padding: 0;
+  }
+
+  .colum {
+    padding: 0 3rem !important;
+  }
+
+  footer {
+    border-top-right-radius: 10em;
+  }
+
+  footer ul {
+    margin-bottom: 50px;
+  }
+
+  .hide,
+  .hide-on-mobile {
+    display: none;
+  }
+}
