@@ -27,7 +27,8 @@
     padding: 20px 3rem;
   }
 
-  .img-on-mobile {
+  .img-on-mobile,
+  .arrow-dark {
     display: block;
   }
 

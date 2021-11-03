@@ -48,8 +48,7 @@
 
 /* Hero section */
 .hero {
-  background: url(/blogr-landing-page-main/images/bg-pattern-intro.svg)
-      no-repeat,
+  background: url(../images/bg-pattern-intro.svg) no-repeat,
     var(--gradient-color);
   background-size: 170%;
   background-position: left;
@@ -168,7 +167,7 @@ button {
   height: 47rem;
   top: -14rem;
   right: 0px;
-  background-image: url("/blogr-landing-page-main/images/illustration-editor-desktop.svg");
+  background-image: url("../images/illustration-editor-desktop.svg");
   background-repeat: no-repeat;
   background-position-x: 8rem;
   background-size: 45rem;
@@ -182,9 +181,7 @@ button {
 }
 
 .section-2 {
-  background: url(/blogr-landing-page-main/images/bg-pattern-circles.svg)
-      no-repeat,
-    #0f1a26;
+  background: url(../images/bg-pattern-circles.svg) no-repeat, #0f1a26;
   background-position-x: -22%;
   background-position-y: 86%;
   background-size: 49rem;
@@ -198,7 +195,7 @@ button {
   height: 26rem;
   transform: translateY(-6rem);
   right: 33px;
-  background-image: url(/blogr-landing-page-main/images/illustration-phones.svg);
+  background-image: url(../images/illustration-phones.svg);
   background-repeat: no-repeat;
   background-position: left;
   background-size: 26rem;
@@ -212,7 +209,7 @@ button {
   height: 47rem;
   top: -8rem;
   right: 0px;
-  background-image: url("/blogr-landing-page-main/images/illustration-laptop-desktop.svg");
+  background-image: url("../images/illustration-laptop-desktop.svg");
   background-repeat: no-repeat;
   background-position-x: -13rem;
   background-size: 48rem;
@@ -222,7 +219,8 @@ button {
   padding: 13rem 0px;
 }
 
-.img-on-mobile {
+.img-on-mobile,
+.arrow-dark {
   display: none;
 }
 
